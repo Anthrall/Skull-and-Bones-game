@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6403049945603124543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6642505631096380205}
+  - component: {fileID: 3012135297490696907}
+  m_Layer: 0
+  m_Name: CardData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6642505631096380205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403049945603124543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.655457, y: -18.969273, z: 39.20036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3012135297490696907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403049945603124543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c15a246223030448b95ea52f719a106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DataCrads:
+  - name: Horde
+    name_ru: "\u041E\u0440\u0434\u0430"
+    logo: {fileID: 21300000, guid: 0f08c2f6524941a42b9fa1e17bac5d3a, type: 3}
+    shirt: {fileID: 21300000, guid: 0193fc79415cdc24ca0a3d6da73b9704, type: 3}
+    faces:
+    - name: Orc
+      name_ru: "\u041E\u0440\u043A"
+      sprite: {fileID: 21300000, guid: 26b1edea4fd501045b905853cce56646, type: 3}
+    - name: Troll
+      name_ru: "\u0422\u0440\u043E\u043B\u043B\u044C"
+      sprite: {fileID: 21300000, guid: 24199c5696705ed4e85f2fdbf057a0d7, type: 3}
+    - name: Tauren
+      name_ru: "\u0422\u0430\u0443\u0440\u0435\u043D"
+      sprite: {fileID: 21300000, guid: 2f2aca889e1187743aac0aaf45d1032c, type: 3}
+    - name: Undead
+      name_ru: "\u041E\u0442\u0440\u0435\u043A\u0448\u0438\u0439\u0441\u044F"
+      sprite: {fileID: 21300000, guid: 8048e623113250d4ea4d71c6fae46a2b, type: 3}
+    - name: Goblin
+      name_ru: "\u0413\u043E\u0431\u043B\u0438\u043D"
+      sprite: {fileID: 21300000, guid: ed5cbbe52efd3af43a3e313a4453f41f, type: 3}
+    - name: Blood elf
+      name_ru: "\u041A\u0440\u043E\u0432\u0430\u0432\u044B\u0439 \u044D\u043B\u044C\u0444"
+      sprite: {fileID: 21300000, guid: 7b38acee4511f4e4ca374d911dd96668, type: 3}
+    - name: Pandaren
+      name_ru: "\u041F\u0430\u043D\u0434\u0430\u0440\u0435\u043D"
+      sprite: {fileID: 21300000, guid: d798f3552c237a848ae04db541424024, type: 3}
+    - name: Nightborn
+      name_ru: "\u041D\u043E\u0447\u043D\u043E\u0440\u043E\u0436\u0434\u0435\u043D\u043D\u044B\u0439"
+      sprite: {fileID: 21300000, guid: baa27013ed5dd0b4ea16168e005f8a9d, type: 3}
+    - name: Vulper
+      name_ru: "\u0412\u0443\u043B\u044C\u043F\u0435\u0440"
+      sprite: {fileID: 21300000, guid: c04fd886e4c1ac0408485b2a5ddad4ca, type: 3}
+    - name: Zandalar
+      name_ru: "\u0417\u0430\u043D\u0434\u0430\u043B\u0430\u0440\u0441\u043A\u0438\u0439
+        \u0442\u0440\u043E\u043B\u043B\u044C"
+      sprite: {fileID: 21300000, guid: 693b2dd5cdadea94e979f08877ba469e, type: 3}
+    cards_color:
+    - {r: 1, g: 0.40784314, b: 0.2509804, a: 1}
+    - {r: 0.39215687, g: 0.85490197, b: 0.59607846, a: 1}
+    - {r: 0.8156863, g: 0.45882353, b: 0.64705884, a: 1}
+    player_text_color: {r: 0.45490196, g: 0.90588236, b: 0.18431373, a: 1}
+    computer_text_color: {r: 0.90588236, g: 0.30588236, b: 0.18431373, a: 1}
+    background_color: {r: 1, g: 0.9647059, b: 0.8745098, a: 1}
+    board_color: {r: 0.7764706, g: 0.7372549, b: 0.6392157, a: 1}
+    particle: {fileID: 7949970944861694078, guid: 5974c1d345cd15f4c98680f589e21ef7,
+      type: 3}
+    background_music: {fileID: 8300000, guid: 43fa222a2730d794aafbe3a7d916dfc1, type: 3}
+    sound_effect: {fileID: 8300000, guid: 19b8cdacd9b957c42b5bd6738f0d0f18, type: 3}
+    num_of_choose: 000000000500000009000000
+  - name: Alliance
+    name_ru: "\u0410\u043B\u044C\u044F\u043D\u0441"
+    logo: {fileID: 21300000, guid: 9ee14085a2077e948bf906337540a380, type: 3}
+    shirt: {fileID: 21300000, guid: 1bc4653f1edbaca48b7bddd05738d020, type: 3}
+    faces:
+    - name: Human
+      name_ru: "\u0427\u0435\u043B\u043E\u0432\u0435\u043A"
+      sprite: {fileID: 21300000, guid: b5190f229498a64438bf256637fdc549, type: 3}
+    - name: Dwarf
+      name_ru: "\u0414\u0432\u043E\u0440\u0444"
+      sprite: {fileID: 21300000, guid: cc7611a98afac91428926fe80d8a7b91, type: 3}
+    - name: Nightelf
+      name_ru: "\u041D\u043E\u0447\u043D\u043E\u0439 \u044D\u043B\u044C\u0444"
+      sprite: {fileID: 21300000, guid: 22cac0b6de2f0f342b58a46065eb7131, type: 3}
+    - name: Draenei
+      name_ru: "\u0414\u0440\u0435\u043D\u0435\u0439"
+      sprite: {fileID: 21300000, guid: 06154685724a6964989c532f5442b165, type: 3}
+    - name: Gnome
+      name_ru: "\u0413\u043D\u043E\u043C"
+      sprite: {fileID: 21300000, guid: fdf47b38bafabc949b41fb67da2d18be, type: 3}
+    - name: Worgen
+      name_ru: "\u0412\u043E\u0440\u0433\u0435\u043D"
+      sprite: {fileID: 21300000, guid: 7964a20aee1881e4cbe0d60a94f6e446, type: 3}
+    - name: Pandaren
+      name_ru: "\u041F\u0430\u043D\u0434\u0430\u0440\u0435\u043D"
+      sprite: {fileID: 21300000, guid: d798f3552c237a848ae04db541424024, type: 3}
+    - name: Voidelf
+      name_ru: "\u042D\u043B\u044C\u0444 \u0431\u0435\u0437\u0434\u043D\u044B"
+      sprite: {fileID: 21300000, guid: 40f151df81d28274ea63af47dfcbe4d5, type: 3}
+    - name: Mechanognome
+      name_ru: "\u041C\u0435\u0445\u0430\u043D\u043E\u0433\u043D\u043E\u043C"
+      sprite: {fileID: 21300000, guid: c22ee05e9c949c944ba69926d523de04, type: 3}
+    - name: Kultiran
+      name_ru: "\u041A\u0443\u043B\u0442\u0438\u0440\u0430\u0441\u0435\u0446"
+      sprite: {fileID: 21300000, guid: 0210f6db3f8d76543a2bdfadb511f9a3, type: 3}
+    cards_color:
+    - {r: 1, g: 0.89411765, b: 0.28235295, a: 1}
+    - {r: 0.43529412, g: 0.64705884, b: 0.9529412, a: 1}
+    - {r: 0.8117647, g: 0.43529412, b: 0.84313726, a: 1}
+    player_text_color: {r: 1, g: 1, b: 0.39215687, a: 1}
+    computer_text_color: {r: 0.4117647, g: 0.62352943, b: 1, a: 1}
+    background_color: {r: 0.7764706, g: 0.87058824, b: 0.972549, a: 1}
+    board_color: {r: 0.6392157, g: 0.7176471, b: 0.8, a: 1}
+    particle: {fileID: 1209069103864200906, guid: 57af87884b63b304998b528d93db99f5,
+      type: 3}
+    background_music: {fileID: 8300000, guid: 0c3ef31fb4204894bb24e9e8f0410082, type: 3}
+    sound_effect: {fileID: 8300000, guid: a8aaa1c32168c7945a51f2fb88ea6f3a, type: 3}
+    num_of_choose: 000000000300000009000000
+  - name: Vizns
+    name_ru: "\u0412\u0438\u0437\u043D\u044B"
+    logo: {fileID: 21300000, guid: 69ec1e4166292e545a7ac747a08fe024, type: 3}
+    shirt: {fileID: 21300000, guid: 283bac645b1b2884783a33a33815e50c, type: 3}
+    faces:
+    - name: Fear
+      name_ru: "\u0421\u0442\u0440\u0430\u0445"
+      sprite: {fileID: 21300000, guid: 5824bb872dfb9a34ab9b8673e66bfbbe, type: 3}
+    - name: Madness
+      name_ru: "\u0411\u0435\u0437\u0443\u043C\u0438\u0435"
+      sprite: {fileID: 0}
+    - name: Mourning
+      name_ru: "\u0421\u043A\u043E\u0440\u0431\u044C"
+      sprite: {fileID: 0}
+    - name: Mystery
+      name_ru: "\u0422\u0430\u0439\u043D\u0430"
+      sprite: {fileID: 0}
+    - name: Tribunal
+      name_ru: "\u0421\u0443\u0434"
+      sprite: {fileID: 0}
+    - name: Virtuoso
+      name_ru: "\u0412\u0438\u0440\u0442\u0443\u043E\u0437"
+      sprite: {fileID: 0}
+    - name: Knowledge
+      name_ru: "\u0417\u043D\u0430\u043D\u0438\u0435"
+      sprite: {fileID: 0}
+    - name: Mania
+      name_ru: "\u041C\u0430\u043D\u0438\u044F"
+      sprite: {fileID: 0}
+    - name: Regularity
+      name_ru: "\u041F\u043E\u0440\u044F\u0434\u043E\u043A"
+      sprite: {fileID: 0}
+    - name: Observation
+      name_ru: "\u041D\u0430\u0431\u043B\u044E\u0434\u0435\u043D\u0438\u0435"
+      sprite: {fileID: 0}
+    cards_color:
+    - {r: 0.79607844, g: 0.79607844, b: 0.79607844, a: 1}
+    - {r: 0.7019608, g: 0.9843137, b: 0.47843137, a: 1}
+    - {r: 0.7647059, g: 0.44705883, b: 0.7607843, a: 1}
+    player_text_color: {r: 0.6509804, g: 0.6509804, b: 0.6509804, a: 1}
+    computer_text_color: {r: 0.6039216, g: 0.25490198, b: 0.6039216, a: 1}
+    background_color: {r: 0.62352943, g: 0.5176471, b: 0.6509804, a: 1}
+    board_color: {r: 0.5019608, g: 0.39215687, b: 0.5176471, a: 1}
+    particle: {fileID: 2584042615841569536, guid: e51150bf2f02a89408c82ecbdb2814c6,
+      type: 3}
+    background_music: {fileID: 8300000, guid: 32072e16a5b6a9445a9b1a2b71eb89ec, type: 3}
+    sound_effect: {fileID: 8300000, guid: 8aba2bcf5e0551b4f87964a774b45c31, type: 3}
+    num_of_choose: 000000000500000007000000

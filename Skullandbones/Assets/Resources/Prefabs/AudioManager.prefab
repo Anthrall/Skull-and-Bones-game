@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2746185656845561508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2746185656845561509}
+  - component: {fileID: 2746185656845561510}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2746185656845561509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746185656845561508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2746185656845561510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746185656845561508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a070a51d7a02240954dd41456261ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 0}
+    volume: 0.13
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Effect
+    clip: {fileID: 0}
+    volume: 0.09
+    pitch: 1.1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerVoice
+    clip: {fileID: 8300000, guid: 6d2c3ad5f3f69ee43878e8174114bb3b, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: ComputerVoice
+    clip: {fileID: 8300000, guid: 6d2c3ad5f3f69ee43878e8174114bb3b, type: 3}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: CardAway
+    clip: {fileID: 8300000, guid: f15a32c9afef89a4e908aad3e6e4a827, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CardOnDeck
+    clip: {fileID: 8300000, guid: 67e509637ccc83a47945ee61d0fd119a, type: 3}
+    volume: 0.9
+    pitch: 1.49
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerCollect
+    clip: {fileID: 8300000, guid: d493d9a58bdf2f24a989d68429cadb8d, type: 3}
+    volume: 0.5
+    pitch: 1.66
+    loop: 0
+    source: {fileID: 0}
+  - name: ComputerCollect
+    clip: {fileID: 8300000, guid: 3619c33c4edfe954696d7fd968592cb0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: e0c2bf418e799fb4fb030c0bd41fc6bb, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 79ee395ec5de36a4ca6c628e6bab2644, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NeutralEnd
+    clip: {fileID: 8300000, guid: ff746f35b9174894fb85042291df8163, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ChangeDeck
+    clip: {fileID: 8300000, guid: 14ab2f026a6c37f4791cc6068a0e5e32, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  Data: {fileID: 6403049945603124543, guid: 2ad88030087c0e54daca93ef2bed16b6, type: 3}
