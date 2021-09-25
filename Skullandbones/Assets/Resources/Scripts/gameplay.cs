@@ -168,6 +168,8 @@ public class gameplay : MonoBehaviour
                 {
                     computer_cards.Add(type);
                 }
+                card.transform.position = new Vector3(rival.transform.position.x, rival.transform.position.y, -6);
+                card.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
             {
@@ -241,6 +243,10 @@ public class gameplay : MonoBehaviour
                 //UpdateCards(myboard, 1);
                 if(!end)
                     TurnPlayer();
+                if (deck.Count == 0)
+                {
+                    shirt.SetActive(false);
+                }
             }
             else
             {
@@ -255,6 +261,7 @@ public class gameplay : MonoBehaviour
                 //UpdateCards(myboard, 2);
                 if (!end)
                     Invoke("TurnAI", 3f);
+                
             }
         }
         else
@@ -414,6 +421,10 @@ public class gameplay : MonoBehaviour
 
         }
         deck.RemoveAt(index);
+        if (deck.Count == 0)
+        {
+            shirt.SetActive(false);
+        }
     }
 
     public void GetPlayerTurn()
@@ -477,6 +488,7 @@ public class gameplay : MonoBehaviour
             {
 
                 GiveCardtoDeck(player_board, deck, true);
+                
                 query_text.color = player_answer;
                 FindObjectOfType<AudioManager>().Play("PlayerVoice");
 
@@ -587,6 +599,7 @@ public class gameplay : MonoBehaviour
         {
             UpdateCards(board, 2);
         }
+        
 
         isCoroutineExecuting = false;
     }
@@ -606,6 +619,7 @@ public class gameplay : MonoBehaviour
     public void UpdateCards(int[,] board, int mode)
     {
         bool soundplay = false;
+        
         for (int i = 0; i < player_board.GetLength(0); i++)
         {
             if(board[i, 0] == 1 && board[i, 1] == 1 && board[i, 2] == 1)

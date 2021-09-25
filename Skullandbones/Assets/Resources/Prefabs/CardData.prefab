@@ -151,31 +151,31 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 5824bb872dfb9a34ab9b8673e66bfbbe, type: 3}
     - name: Madness
       name_ru: "\u0411\u0435\u0437\u0443\u043C\u0438\u0435"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: a3ee8d8a6ed162346a21a8812b7331b9, type: 3}
     - name: Mourning
       name_ru: "\u0421\u043A\u043E\u0440\u0431\u044C"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c967930040c23a84f812be37fa0aaf87, type: 3}
     - name: Mystery
       name_ru: "\u0422\u0430\u0439\u043D\u0430"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 3b8db91e42f0f9a4fa4d1a0196617da5, type: 3}
     - name: Tribunal
       name_ru: "\u0421\u0443\u0434"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 7741b792596b4f64c95d67a4d2c6a01c, type: 3}
     - name: Virtuoso
       name_ru: "\u0412\u0438\u0440\u0442\u0443\u043E\u0437"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 8ab60396bb4d84d42bd5cda47c601c18, type: 3}
     - name: Knowledge
       name_ru: "\u0417\u043D\u0430\u043D\u0438\u0435"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 363ef915c1b2758459f2b8cfb5a87864, type: 3}
     - name: Mania
       name_ru: "\u041C\u0430\u043D\u0438\u044F"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: f5f12486cc57e3244bd38c59daa3310a, type: 3}
     - name: Regularity
       name_ru: "\u041F\u043E\u0440\u044F\u0434\u043E\u043A"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 87ad74bb2ebaa784eb8e4b1557db2d04, type: 3}
     - name: Observation
       name_ru: "\u041D\u0430\u0431\u043B\u044E\u0434\u0435\u043D\u0438\u0435"
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 0db49987208cd164fab0f04ac3fea235, type: 3}
     cards_color:
     - {r: 0.79607844, g: 0.79607844, b: 0.79607844, a: 1}
     - {r: 0.7019608, g: 0.9843137, b: 0.47843137, a: 1}

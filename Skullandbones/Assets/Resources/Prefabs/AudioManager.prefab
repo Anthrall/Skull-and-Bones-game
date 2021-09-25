@@ -58,14 +58,14 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerVoice
     clip: {fileID: 8300000, guid: 6d2c3ad5f3f69ee43878e8174114bb3b, type: 3}
-    volume: 0.5
-    pitch: 0.8
+    volume: 0.2
+    pitch: 0.7
     loop: 0
     source: {fileID: 0}
   - name: ComputerVoice
     clip: {fileID: 8300000, guid: 6d2c3ad5f3f69ee43878e8174114bb3b, type: 3}
-    volume: 0.5
-    pitch: 0.5
+    volume: 0.2
+    pitch: 0.3
     loop: 0
     source: {fileID: 0}
   - name: CardAway
@@ -117,3 +117,4 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   Data: {fileID: 6403049945603124543, guid: 2ad88030087c0e54daca93ef2bed16b6, type: 3}
+  issound: 0
